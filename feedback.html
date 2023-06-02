@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css" />
+  </head>
+  <body>
+    <br><br><br><br>
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>Feedback Form</h1>
+          </div>
+          <div class="panel-body">
+            <form action="connect.php" method="post">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstName"
+                  name="firstName"
+                />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  name="lastName"
+                />
+              </div>
+              <div class="form-group">
+                <label for="gender">Gender</label>
+                <div>
+                  <label for="male" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="m"
+                      id="male"
+                    />Male</label
+                  >
+                  <label for="female" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="f"
+                      id="female"
+                    />Female</label
+                  >
+                  <label for="others" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="o"
+                      id="others"
+                    />Others</label
+                  >
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="number">Your Feedback</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="feedback"
+                  name="feedback"
+                />
+              </div>
+              <label for="exp">Rate your experience</label>
+                <div>
+                  <label for="one" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="one"
+                      value="one"
+                      id="one"
+                    />1</label
+                  >
+                  <label for="two" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="two"
+                      value="two"
+                      id="two"
+                    />2</label
+                  >
+                  <label for="three" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="three"
+                      value="three"
+                      id="three"
+                    />3</label
+                  >
+                  <label for="four" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="four"
+                      value="four"
+                      id="four"
+                    />4</label
+                  >
+                  <label for="five" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="five"
+                      value="five"
+                      id="five"
+                    />5</label
+                  >
+                </div>
+              </div>
+              <input type="submit" class="btn btn-primary" />
+            </form>
+          </div>
+          <div class="panel-footer text-right">
+            <small>&copy; TripTok</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
